@@ -1,0 +1,22 @@
+{
+  "name": "nodeplayer-plugin-verifymac",
+  "version": "0.1.95",
+  "description": "Calculate MAC for search results to verify that clients can not change a song object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FruitieX/nodeplayer-plugin-verifymac.git"
+  },
+  "author": "FruitieX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FruitieX/nodeplayer-plugin-verifymac/issues"
+  },
+  "homepage": "https://github.com/FruitieX/nodeplayer-plugin-verifymac",
+  "dependencies": {
+    "nodeplayer-config": "*"
+  }
+}
