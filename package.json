@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FruitieX/nodeplayer-plugin-verifymac/issues"
   },
-  "homepage": "https://github.com/FruitieX/nodeplayer-plugin-verifymac"
+  "homepage": "https://github.com/FruitieX/nodeplayer-plugin-verifymac",
+  "dependencies": {
+    "nodeplayer": "*"
+  }
 }
