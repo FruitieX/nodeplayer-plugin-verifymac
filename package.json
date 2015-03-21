@@ -4,7 +4,7 @@
   "description": "Calculate MAC for search results to verify that clients can not change a song object",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "homepage": "https://github.com/FruitieX/nodeplayer-plugin-verifymac",
   "dependencies": {
     "nodeplayer": "*"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "istanbul": "^0.3.8",
+    "jscs": "^1.11.3",
+    "mocha": "^2.2.1",
+    "mocha-jscs": "^1.0.2",
+    "mocha-jshint": "^1.0.0",
+    "underscore": "^1.8.2"
   }
 }
